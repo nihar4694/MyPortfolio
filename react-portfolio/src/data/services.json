@@ -1,0 +1,20 @@
+[
+    {
+      "Service": "Frontend Development",
+      "Cost": "Based On Clients design requirements",
+      "Expected-Time": "Based on Design",
+      "imageSrc": "history/google.png"
+    },
+    {
+      "Service": "Backend Development",
+      "Cost": "Based On Clients requirements",
+      "Expected-Time": "Based on Clients Requirements",
+      "imageSrc": "history/microsoft.png"
+    },
+    {
+      "Service": "FullStack Development",
+      "Cost": "Based on Requirements",
+      "Expected-Time": "Based on Clients Requirements",
+      "imageSrc": "history/netflix.png"
+    }
+  ]

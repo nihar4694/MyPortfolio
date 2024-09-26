@@ -1,0 +1,20 @@
+[
+    {
+      "title": "Face Expression Recognition",
+      "imageSrc": "projects/project.png",
+      "description": "Developed a face expression recognition model using transfer learning with the VGG architecture.",
+      "skills": ["TensorFlow", "VGG", "StreamLit"]
+    },
+    {
+      "title": "Expence Tracking App",
+      "imageSrc": "projects/project.png",
+      "description": "Developed a web app to track daily income and expenses using React.js, Node.js, and MongoDB, with Bootstrap for a responsive UI.",
+      "skills": ["React", "Express", "Node", "Sass"]
+    },
+    {
+      "title": "Customer Segmentation Analysis",
+      "imageSrc": "projects/project.png",
+      "description": "Conducted customer segmentation analysis using Python, SQL, and Tableau and also created reports and visuals to support businesses.",
+      "skills": ["Python", "SQL", "Tablue"]
+    }
+  ]

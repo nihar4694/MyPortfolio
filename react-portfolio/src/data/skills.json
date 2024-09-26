@@ -1,0 +1,26 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html-icon.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css-icon.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react-icon.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "skills/node-icon.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb-icon.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma-icon.png"
+    }
+  ]
