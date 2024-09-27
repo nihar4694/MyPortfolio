@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container{
-    color: var(--color-text);
+    color: aliceblue;
     margin-top: 79px;
     margin-left: 10%;
     margin-right: 10%;
@@ -27,6 +27,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 37px;
+    color: var(--color-text);
 }
 
 .skill{

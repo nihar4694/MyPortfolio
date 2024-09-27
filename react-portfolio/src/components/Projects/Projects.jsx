@@ -1,10 +1,12 @@
 import React from "react";
 
 import styles from "./Projects.module.css";
-
+import { Link } from 'react-router-dom';
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
 
+
+console.log('hello')
 export const Projects = () => {
   return (
     <section className={styles.container} id="projects">

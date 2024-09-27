@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./About.module.css"
+import { Link } from 'react-router-dom';
 
 export const About=() =>{
     return( 
@@ -36,8 +37,14 @@ export const About=() =>{
                         </p>
                     </div>
                     </li>
+                    <li>
+                    <a className={styles.contactBtn} href="Nihar Dholaria.pdf" target="_blank">My Resume</a>
+                    </li>
+                
                 </ul>
             </div>
         </section>
     );
 };
+
+//export default About;

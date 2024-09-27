@@ -1,19 +1,24 @@
 import React, {useState} from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../utils";
+import { Link } from 'react-router-dom';
+
 
 export const Navbar=() => {
     const [menuOpen, setMenuOpen]=useState(false);
 
     return( 
     <nav className={styles.navbar}>
-        <a className={styles.title} href="/">Portfolio</a>
+        
+        <a  className={styles.title} href="/">
+        <img src={getImageUrl("nav/Logo.png")} alt="Logo" />
+        Portfolio</a>
         <div className={styles.menu}>
-            <img widthclassName={styles.menuBtn} 
+            <img className={styles.menuBtn} 
             src={
                 menuOpen
                 ? getImageUrl("nav/close-icon.png")
-                : getImageUrl("nav/navbar-icon2.png")
+                : getImageUrl("nav/navbar-icon.png")
             } 
             alt="menu-button"
             onClick={()=> setMenuOpen(!menuOpen)}
@@ -21,17 +26,16 @@ export const Navbar=() => {
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
             onClick={() => setMenuOpen(false)}>
                 <li>
-                    <a href="#about">About</a>
+                <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
-                </li>
+                <Link to="/About">About</Link>                </li>
                 <li>
-                    <a href="#services">Services</a>
-                </li>
+                <Link to="/Services">Services</Link>                </li>
                 <li>
-                    <a href="#contact">Contact</a>
-                </li>
+                <Link to="/Projects">Project</Link>                </li>
+                <li>
+                <Link to="/Contact">Contact</Link>                </li>
             </ul>
         </div>
     </nav>

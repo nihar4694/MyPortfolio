@@ -2,10 +2,11 @@ import React,{useState} from "react";
 import skills from "../../data/skills.json";
 import services from "../../data/services.json";
 import styles from "./Services.module.css";
+import { Link } from 'react-router-dom';
 
 import { getImageUrl } from "../../utils";
 
-export const Experience = () => {
+export const Services = () => {
   return (
     <section className={styles.container} id="services">
       <h2 className={styles.title}>Services</h2>

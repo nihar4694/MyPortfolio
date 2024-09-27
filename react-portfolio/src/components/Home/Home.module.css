@@ -7,8 +7,9 @@
     justify-content: space-between;
     margin-top: 49px;
     z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
 }
 
 .content{
@@ -26,7 +27,7 @@
     font-family: var(--font-roboto);
     background: linear-gradient(
         90deg,
-        rgba(255,255,255,1) 70%,
+        rgb(22, 51, 95) 70%,
         rgba(255,255,255,0) 120%
     );
     -webkit-text-fill-color: transparent;
@@ -87,6 +88,7 @@
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
     z-index: 0;
+    overflow: hidden;
 }
 
 .bottomBlur{
@@ -95,11 +97,12 @@
     height: 50vh;
     min-width: 250px;
     top: 246px;
-    right: -25vw;
+    right: -5vw;
     border-radius: 746px;
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
     z-index: 0;
+    overflow: hidden;
 }
 
 @media screen and (max-width:830px){
