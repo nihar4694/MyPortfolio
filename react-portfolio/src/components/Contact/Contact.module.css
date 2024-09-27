@@ -1,9 +1,15 @@
-/* General container styling */
+/*
+File Name: Contact.module.css
+Name: Nihar Dholaria
+StudentId: 301348175
+Date: 26 - September - 2024
+*/
+
 .container {
-  background-color: #f5f5f5; /* Light background */
+  background-color: #f5f5f5;
   padding: 2rem;
   text-align: center;
-  border-top: 5px solid var(--color-secondary); /* Accent border */
+  border-top: 5px solid var(--color-secondary);
 }
 
 .text h2 {

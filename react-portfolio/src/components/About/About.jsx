@@ -1,3 +1,10 @@
+/*
+File Name: About.jsx
+Name: Nihar Dholaria
+StudentId: 301348175
+Date: 26 - September - 2024
+*/
+
 import React, {useState} from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./About.module.css"

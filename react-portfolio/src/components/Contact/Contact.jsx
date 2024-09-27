@@ -1,3 +1,10 @@
+/*
+File Name: Contact.jsx
+Name: Nihar Dholaria
+StudentId: 301348175
+Date: 26 - September - 2024
+*/
+
 import React, { useState } from "react";
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
@@ -19,10 +26,8 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would handle form submission, e.g., send data to a server or email
     console.log("Form submitted:", formData);
-    alert("Message sent!"); // For demonstration purposes
-    // Clear form fields after submission
+    alert("Message sent!"); 
     setFormData({
       name: "",
       email: "",

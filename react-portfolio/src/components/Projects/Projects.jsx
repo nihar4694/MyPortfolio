@@ -1,3 +1,10 @@
+/*
+File Name: Projects.jsx
+Name: Nihar Dholaria
+StudentId: 301348175
+Date: 26 - September - 2024
+*/
+
 import React from "react";
 
 import styles from "./Projects.module.css";
